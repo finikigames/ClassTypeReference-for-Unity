@@ -5,8 +5,7 @@
   "description": "A plugin that allows selecting a type from a drop-down menu in the inspector.",
   "dependencies": {
     "com.solidalloy.util": "1.40.0",
-    "com.unity.settings-manager": "1.0.3",
-    "com.solidalloy.unity-dropdown": "https://github.com/finikigames/UnityDropdown.git"
+    "com.unity.settings-manager": "1.0.3"
   },
   "keywords": [
     "dropdown",
