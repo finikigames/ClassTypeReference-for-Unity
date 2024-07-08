@@ -20,7 +20,6 @@
         private void SubscribeToDelayCall()
         {
 #if UNITY_EDITOR
-            EditorApplication.delayCall += TryUpdatingTypeUsingGUID;
             EditorApplication.delayCall += LogTypeNotFoundIfNeeded;
 #endif
         }
@@ -28,7 +27,6 @@
         private void UnsubscribeFromDelayCall()
         {
 #if UNITY_EDITOR
-            EditorApplication.delayCall -= TryUpdatingTypeUsingGUID;
             EditorApplication.delayCall -= LogTypeNotFoundIfNeeded;
 #endif
         }
